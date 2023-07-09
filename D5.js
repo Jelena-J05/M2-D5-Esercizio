@@ -49,7 +49,6 @@ console.log (newString)
         let finalString = []
         for (let i = 0; i < text.length; i++) {
           let firstLetter = text[i].charAt(0)
-          console.log(firstLetter)
           let uppercaseLetter = firstLetter.toUpperCase()
           let cutString = text[i].slice(1)
           let finalText = uppercaseLetter + cutString
